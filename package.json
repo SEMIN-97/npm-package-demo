@@ -22,7 +22,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build"
+    "ci": "npm run build",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.3.3",
