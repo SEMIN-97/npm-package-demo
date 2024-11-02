@@ -27,6 +27,7 @@
     "check-format": "prettier --check .",
     "check-exports": "attw --pack ."
   },
+  "main": "dist/index.js",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.4",
     "prettier": "^3.3.3",
