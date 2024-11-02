@@ -2,7 +2,10 @@
   "name": "npm-package-demo",
   "version": "1.0.0",
   "description": "Total TypeScript의 가이드를 따라 제작한 npm 패키지 데모입니다.",
-  "keywords": ["demo", "typescript"],
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
   "homepage": "https://github.com/SEMIN-97/npm-package-demo",
   "bugs": {
     "url": "https://github.com/SEMIN-97/npm-package-demo/issues"
@@ -12,7 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/SEMIN-97/npm-package-demo.git"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
